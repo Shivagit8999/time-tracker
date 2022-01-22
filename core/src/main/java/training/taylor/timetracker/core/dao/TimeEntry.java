@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * Created by Jason on 6/19/2015.
  */
 @Component
-@Scope("prototype")
+/Scope("prototype")
 public class TimeEntry {
     private String description;
     private float rate;
